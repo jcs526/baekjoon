@@ -13,7 +13,7 @@ public class No1330 {
             System.out.println(">");
         else if(A==B)
             System.out.println("==");
-        else 
+        else
             System.out.println("<");
     }
 }
