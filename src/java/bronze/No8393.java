@@ -1,14 +1,17 @@
-package bronze;
+package java.bronze;
 
 import java.util.Scanner;
 
-public class No2741 {
+public class No8393 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
 
-        for (int i=1;i<=n;i++)
-            System.out.println(i);
+        int sum=0;
+        for(int i=1;i<=n;i++)
+            sum+=i;
+
+        System.out.println(sum);
     }
 }

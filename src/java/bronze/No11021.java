@@ -1,8 +1,8 @@
-package bronze;
+package java.bronze;
 
 import java.util.Scanner;
 
-public class No11022 {
+public class No11021 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -11,7 +11,7 @@ public class No11022 {
         for(int i=1;i<=n;i++){
             int a = scanner.nextInt();
             int b = scanner.nextInt();
-            System.out.println("Case #"+i+": "+a+" + "+b+" = "+(a+b));
+            System.out.println("Case #"+i+": "+(a+b));
         }
     }
 }

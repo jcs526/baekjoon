@@ -1,14 +1,14 @@
-package bronze;
+package java.bronze;
 
 import java.util.Scanner;
 
-public class No2742 {
+public class No2741 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int n = scanner.nextInt();
 
-        for (int i=n;i>=1;i--)
+        for (int i=1;i<=n;i++)
             System.out.println(i);
     }
 }

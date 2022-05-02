@@ -1,18 +1,16 @@
-package bronze;
-
+package java.bronze;
 import java.util.Scanner;
 
-public class No10952 {
+public class No10950 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (true){
+        int N = scanner.nextInt();
+
+        for (int i = 0; i < N; i++) {
             int A = scanner.nextInt();
             int B = scanner.nextInt();
-            if(A==0&&B==0){
-                break;
-            }
-            System.out.println((A+B));
+            System.out.println(A+B);
         }
     }
 }
