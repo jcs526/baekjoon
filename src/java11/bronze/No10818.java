@@ -11,7 +11,7 @@ public class No10818 {
         int N = scanner.nextInt();
 
         int min = 1000000;
-        int max = 1;
+        int max = -1000000;
 
         for (int i = 0; i < N; i++) {
             int num = scanner.nextInt();
