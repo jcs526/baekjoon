@@ -1,14 +1,14 @@
-package java.bronze;
+package java11.bronze;
 
 import java.util.Scanner;
 
-public class No10926 {
+public class No18108 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String id =scanner.nextLine();
+        int year =scanner.nextInt();
 
-        String result =id+"??!";
+        int result = year-543;
 
         System.out.println(result);
     }

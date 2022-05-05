@@ -1,4 +1,4 @@
-package java.bronze;
+package java11.bronze;
 
 import java.io.*;
 import java.util.StringTokenizer;
