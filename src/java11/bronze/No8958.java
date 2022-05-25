@@ -27,5 +27,10 @@ public class No8958 {
             }
             System.out.println(sum);
         }
+        for (int k = 1; k <257; k++){
+            System.out.println("160."+k);
+        }
     }
+
+
 }
